@@ -47,7 +47,15 @@ MLPs are **universal approximators**, meaning they can learn nearly any function
 
 ## 📊 MLP Architecture
 
-
+```text
+Input Layer (5 features)
+   ↓
+Hidden Layer 1 (64 neurons) + ReLU
+   ↓
+Hidden Layer 2 (32 neurons) + ReLU
+   ↓
+Output Layer (1 neuron for GDP)
+```
 ---
 
 ## 📦 Files in This Repo
@@ -92,6 +100,14 @@ MLPs are **universal approximators**, meaning they can learn nearly any function
 
 ## 📉 Example Output
 
+```text
+Epoch 1 finished
+Epoch 2 finished
+...
+Training has completed
+Mean Squared Error: 0.00384
+R2 Score: -0.05377
+```
 
 ---
 
